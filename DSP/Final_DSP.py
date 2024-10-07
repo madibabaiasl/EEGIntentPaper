@@ -179,3 +179,9 @@ output_file_path = 'extracted_features_all_subjects.csv'
 df_export.to_csv(output_file_path, index=False)
 
 print("Data processing and export completed.")
+
+# Load the dataset
+data = pd.read_csv('extracted_features_all_subjects.csv')
+
+# Remove rows where all column values are duplicated
+data = data.drop_duplicates()
