@@ -9,8 +9,7 @@ The system leverages temporal dependencies in EEG signals to decode intent and e
 
 \section*{📁 Repository Structure}
 
-\section*{📁 Repository Structure}
-
+{\small
 \begin{verbatim}
 ├── DSP/                   # Digital Signal Processing scripts for EEG
 ├── Data Augmentation/     # EEG signal augmentation techniques
@@ -18,6 +17,7 @@ The system leverages temporal dependencies in EEG signals to decode intent and e
 ├── TransNN-MHA/           # Transformer-based classification model (TransNN-MHA)
 ├── README.md              # Project documentation
 \end{verbatim}
+}
 
 
 
