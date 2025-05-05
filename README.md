@@ -7,17 +7,6 @@ This project implements a real-time brain-robot interface (BRI) that uses EEG si
 
 The system leverages temporal dependencies in EEG signals to decode intent and execute motor commands on the robot in real-time.
 
-\section*{📁 Repository Structure}
-
-{\small
-\begin{verbatim}
-├── DSP/                   # Digital Signal Processing scripts for EEG
-├── Data Augmentation/     # EEG signal augmentation techniques
-├── Statistical Analysis/  # Scripts for statistical testing and evaluation
-├── TransNN-MHA/           # Transformer-based classification model (TransNN-MHA)
-├── README.md              # Project documentation
-\end{verbatim}
-}
 
 
 
@@ -55,8 +44,6 @@ The dataset used is **publicly available from PhysioNet**:
 - Channels: 64-channel EEG  
 - Tasks: Real and imaginary motor movements (left hand, right hand, both hands, feet)
 
-Only EEG signals were used in this research. Data preprocessing includes filtering, ICA, channel selection, and spectrogram feature extraction.
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -66,15 +53,11 @@ git clone https://github.com/your_username/eeg-robot-transformer.git
 cd eeg-robot-transformer
 
 \section*{Citation}
+@article{yourpaper2025transnn,
+  title={TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics},
+  author={Your Name and Collaborators},
+  journal={IEEE Access},
+  year={2025}
+}
 
-If you use this code or dataset in your research, please cite the following paper:
-
-\begin{quote}
-Tipu Sultan, Madi Babaiasl. \textit{TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics.} 2025. 
-\end{quote}
-
-The dataset used in this project is publicly available at PhysioNet:
-\begin{quote}
-Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. \textit{Circulation} 2000;101(23):e215--e220. \url{https://physionet.org/content/eegmmidb/1.0.0/}
-\end{quote}
 
