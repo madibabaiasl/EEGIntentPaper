@@ -7,12 +7,15 @@ This project implements a real-time brain-robot interface (BRI) that uses EEG si
 
 The system leverages temporal dependencies in EEG signals to decode intent and execute motor commands on the robot in real-time.
 
-## 📁 Repository Structure
+\section*{📁 Repository Structure}
+
+\begin{verbatim}
 ├── DSP/                   # Digital Signal Processing scripts for EEG
 ├── Data Augmentation/     # EEG signal augmentation techniques
 ├── Statistical Analysis/  # Scripts for statistical testing and evaluation
 ├── TransNN-MHA/           # Transformer-based classification model (TransNN-MHA)
 ├── README.md              # Project documentation
+\end{verbatim}
 
 
 
