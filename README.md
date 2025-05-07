@@ -3,10 +3,7 @@
 
 ## 🧠 Project Overview
 
-This project presents a brain-robot interface (BRI) framework that leverages EEG signals to classify user motor intent with the aim of enabling robotic control, particularly for assistive applications. A transformer-based deep learning model, TransNN-MHA, is proposed to distinguish between real and imagined motor intentions with high accuracy.
-The system leverages temporal dependencies in EEG signals to decode intent and execute motor commands on the robo.
-
-
+This repository contains the implementation of TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics, a novel deep learning architecture designed to classify motor intent from EEG signals. Built on a transformer backbone with multi-head attention mechanisms, TransNN-MHA processes time-series EEG data to differentiate between real and imagined movements, enabling precise and responsive control in assistive robotic systems. The model is evaluated on the PhysioNet Motor Imagery dataset and includes baseline comparisons, ablation studies, and performance metrics such as ROC and precision-recall curves. This research contributes to the field of brain-computer interfaces (BCIs) by enabling real-time, high-accuracy intent recognition and has been successfully integrated into a closed-loop system for human-robot interaction. The work has been accepted in IEEE Access journal and aims to advance multimodal neuro-robotic control systems for individuals with motor impairments.
 
 ## ⚙️ Key Features
 
