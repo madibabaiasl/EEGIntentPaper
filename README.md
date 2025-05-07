@@ -3,11 +3,8 @@
 
 ## 🧠 Project Overview
 
-This project implements a real-time brain-robot interface (BRI) that uses EEG signals to classify user motor intent and control the **Kinova Gen3** robotic arm. A transformer-based deep learning model, **TransNN-MHA**, is proposed to recognize real vs. imaginary motor intentions with high accuracy, enabling robotic tasks such as grasping and placing objects without hardcoded commands.
-
-The system leverages temporal dependencies in EEG signals to decode intent and execute motor commands on the robot in real-time.
-
-
+This project presents a brain-robot interface (BRI) framework that leverages EEG signals to classify user motor intent with the aim of enabling robotic control, particularly for assistive applications. A transformer-based deep learning model, TransNN-MHA, is proposed to distinguish between real and imagined motor intentions with high accuracy.
+The system leverages temporal dependencies in EEG signals to decode intent and execute motor commands on the robo.
 
 
 
