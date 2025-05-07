@@ -27,6 +27,17 @@ This repository contains the implementation of TransNN-MHA: A Transformer-Based 
 
 ---
 
+
+## 🧠 Model Architecture
+
+
+<p align="center">
+  <img src="Transformer.png" width="700"/>
+  <br>
+  <em>Figure: Architecture of the TransNN-MHA Transformer Model for Intent Recognition.</em>
+</p>
+
+
 ## 📊 Dataset
 
 The dataset used is **publicly available from PhysioNet**:
