@@ -52,18 +52,20 @@ The dataset used is **publicly available from PhysioNet**:
 
 ##  Getting Started
 
-### 1. Clone the Repository
+### 1. Citation
 
 ```bash
-git clone https://github.com/your_username/eeg-robot-transformer.git
-cd eeg-robot-transformer
 
-\section*{Citation}
-@article{yourpaper2025transnn,
-  title={TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics},
-  author={Your Name and Collaborators},
-  journal={IEEE Access},
-  year={2025}
-}
+@ARTICLE{10990212,
+  author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Babaiasl, Madi},
+  journal={IEEE Access}, 
+  title={TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Motors;Electroencephalography;Brain modeling;Transformers;Feature extraction;Accuracy;Robots;Support vector machines;Data models;Real-time systems;Transformer models;multi-head attention;EEG signals;assistive robotics;intent detection},
+  doi={10.1109/ACCESS.2025.3567908}}
+
 
 
