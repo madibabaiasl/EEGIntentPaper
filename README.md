@@ -56,16 +56,14 @@ The dataset used is **publicly available from PhysioNet**:
 
 ```bash
 
-@ARTICLE{10990212,
+@article{sultan2025transnn,
+  title={TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics},
   author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Babaiasl, Madi},
-  journal={IEEE Access}, 
-  title={TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics}, 
+  journal={IEEE Access},
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Motors;Electroencephalography;Brain modeling;Transformers;Feature extraction;Accuracy;Robots;Support vector machines;Data models;Real-time systems;Transformer models;multi-head attention;EEG signals;assistive robotics;intent detection},
-  doi={10.1109/ACCESS.2025.3567908}}
+  publisher={IEEE}
+}
+
 
 
 
