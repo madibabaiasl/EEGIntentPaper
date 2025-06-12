@@ -54,8 +54,7 @@ The dataset used is **publicly available from PhysioNet**:
 
 ### 1. Citation
 
-```bash
-
+```bibtex
 @article{sultan2025transnn,
   title={TransNN-MHA: A Transformer-Based Model to Distinguish Real and Imaginary Motor Intent for Assistive Robotics},
   author={Sultan, Tipu and Liu, Guangping and Sikorski, Pascal and Babaiasl, Madi},
@@ -63,8 +62,3 @@ The dataset used is **publicly available from PhysioNet**:
   year={2025},
   publisher={IEEE}
 }
-
-
-
-
-
