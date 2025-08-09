@@ -52,7 +52,7 @@ The dataset used is **publicly available from PhysioNet**:
 
 ##  Getting Started
 
-### 1. Citation
+### Citation
 
 ```bibtex
 @article{sultan2025transnn,
